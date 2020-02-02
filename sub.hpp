@@ -1,8 +1,5 @@
 #ifndef __SUB_HPP__
 #define __SUB_HPP__
-
-#include "gtest/gtest.h"
-
 #include "base.hpp"
 
 class Sub : public Base

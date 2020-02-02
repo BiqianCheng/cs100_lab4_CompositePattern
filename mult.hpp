@@ -1,7 +1,6 @@
 #ifndef __MULTI_HPP__
 #define __MULTI_HPP__
 
-#include "gtest/gtest.h"
 
 #include "base.hpp"
 

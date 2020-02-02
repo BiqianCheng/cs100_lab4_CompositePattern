@@ -1,7 +1,6 @@
 #ifndef __ADD_HPP__
 #define __ADD_HPP__
 
-#include "gtest/gtest.h"
 
 #include "base.hpp"
 
