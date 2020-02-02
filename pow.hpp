@@ -2,8 +2,9 @@
 #define __POW_HPP__
 
 #include "base.hpp"
+#include <cmath>
 
-class POW : public Base()
+class POW : public Base
 {
 
 public:
@@ -14,11 +15,11 @@ public:
     }
     virtual double evaluate()
     {
-        return base ->evaluate() ** expn->evaluate();
+        return pow(base ->evaluate(),expn->evaluate());
     }
     virtual std::string stringify()
     {
-        return base->stringify() ** expn->stringify();
+        return base->stringify() + "**" + expn->stringify();
     }
 
 private:

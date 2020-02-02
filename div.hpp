@@ -1,8 +1,6 @@
 #ifndef __DIV_HPP__
 #define __DIV_HPP__
 
-#include "gtest/gtest.h"
-
 #include "base.hpp"
 
 class DIV : public Base
